@@ -85,8 +85,3 @@ Please refer to [FAQs](./docs/FAQs.md) for instructions on configuring VS Code o
 Instructions for setting up your CD pipeline are in [docs/CD.md](./docs/CD.md). To keep this example simple, we will deploy to heroku.
 
 Once the CD pipeline is set up, you only need to `git add`, `git commit` and `git push` your code changes, and the CD pipeline will do everything (train, test, deploy) for you.
-
-#### Bonus: Set up CD pipeline
-
-You can also configure your CD pipeline to deploy using kubernetes instead. See instructions [here](./docs/deploy_to_kubernetes.md)
-
