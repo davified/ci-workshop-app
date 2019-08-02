@@ -24,7 +24,7 @@ ENV CI=$CI
 
 RUN /home/ci-workshop-app/bin/train_model.sh
 
-CMD ["/home/ci-workshop-app/bin/start_server.sh"]
+# CMD ["/home/ci-workshop-app/bin/start_server.sh"]
 
 # ================================================================= #
 # ------------ Third stage in our multistage Dockerfile ----------- #
@@ -45,4 +45,4 @@ ARG user
 RUN useradd ${user:-root} -g root || true
 USER ${user:-root}
 
-CMD ["/home/ci-workshop-app/bin/start_server.sh"]
+# CMD ["/home/ci-workshop-app/bin/start_server.sh"]
