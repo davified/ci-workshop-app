@@ -25,7 +25,10 @@ def predict():
 
 if __name__ == '__main__':    
     port = os.environ.get('PORT', 8080)
+    print(port)
     if port == 8080:
+        print(f'starting app in debug and connecting to port: {port}')
         app.run(port=port, host='0.0.0.0', debug=True)
     else:
+        print(f'starting app in prod and connecting to port: {port}')
         app.run()
