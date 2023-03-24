@@ -6,4 +6,4 @@ lime==0.1.1.33
 numpy==1.15.4
 pandas==0.23.4
 scikit-learn==0.20.2
-mlflow==0.8.2
+mlflow==2.2.1
